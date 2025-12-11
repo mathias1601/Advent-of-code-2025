@@ -20,16 +20,6 @@ with open("input2.txt") as f:
 
                 if firstHalf == secondHalf:
                     sum += number
-
-                """ print("---")
-                print(number)
-                print(firstHalf)    
-                print(secondHalf) 
-                print("---") """
             
      
-            
-        
 print(sum)
-
-""" print(all_ranges) """
