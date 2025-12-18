@@ -45,8 +45,8 @@ def recursive_split_count(x, y):
                 sum += 1
                 grid[y][x].perform_split()
 
-            recursive_split_count(x + 1, y)
-            recursive_split_count(x - 1, y)
+                recursive_split_count(x + 1, y)
+                recursive_split_count(x - 1, y)
             return 
         y += 1
 
